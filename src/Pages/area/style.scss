@@ -1,0 +1,47 @@
+.area{
+    height: 100%;
+    width: 100%;
+    .head{
+        height: 44px;
+        width: 100%;
+        border-bottom: 1px solid #cccccc;
+        text-align: center;
+        span{
+            line-height: 44px;
+            font-weight: 800px;
+        }
+    }
+    .hot{
+        padding-left: 28px;
+        h1{
+            font-weight: normal;
+            text-align: center;
+        }
+        span{
+            width:100px;
+            height: 25px;
+            display: inline-block;
+            text-align: center;
+            line-height: 25px;
+            background: #cccccc;
+            margin: 20px;
+        }
+    }
+    .citys{
+        .letter{
+            font-weight: normal;
+            font-size: 20px;
+            background: #cccccc;
+            padding-left: 15px;
+
+        }
+        ul{
+            li{
+                height: 30px;
+                line-height: 30px;
+                border-bottom: 1px solid #cccccc;
+                padding-left: 15px;
+            }
+        }
+    }
+}

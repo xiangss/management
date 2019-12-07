@@ -1,0 +1,61 @@
+.home{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    h1{
+        position: absolute;
+        width: 195px;
+        height: 48px;
+        left: 83px;
+        top: 27px;
+        color: rgba(80, 80, 80, 1);
+        font-size: 28px;
+        text-align: left;
+        font-weight: normal;
+    }
+    .email{
+        position: absolute;
+        width: 195px;
+        height: 24px;
+        left: 83px;
+        top: 75px;
+        color: rgba(196, 196, 196, 1);
+        font-size: 11px;
+        text-align: left;
+        line-height: 24px;
+    }
+    .list{
+        margin-top: 131px;
+        border-top: 1xp solid #000000;
+        a{
+            display: block;
+            width: 221px;
+            height: 40px;
+            margin-left: 83px;
+            color: rgba(132, 132, 132, 1);
+            border-bottom: 1px solid #cccccc;
+            .iconfont{
+                font-size: 20px;
+                display: inline-block;
+                margin-right: 16px;
+                line-height: 40px;
+                color: rgba(132, 132, 132, 1);
+            }
+            .count{
+                margin-left: 130px;
+                display: inline-block;
+                color: red;
+            }
+            .city{
+                margin-left: 130px;
+                display: inline-block;
+                color: red;
+                height: 100%;
+                display: inline-block;
+                line-height: 40px;
+                font-weight: 1000;
+            }
+        }
+    }
+}

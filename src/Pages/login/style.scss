@@ -1,0 +1,101 @@
+.login{
+    background: url('../../assess/pic1.png');
+    img{
+        width: 150px;
+        height: 116px;
+        margin: 0 auto;
+        margin-top: 89px;
+    }
+    .icon-wenhao{
+        font-size: 20px;
+        left: 280px;
+        top: 401px;
+        position: absolute;
+        color: #ffffff;
+    }
+    .username{
+        width: 294px;
+        height: 32px;
+        left: 26px;
+        top: 341px;
+        position: absolute;
+        overflow: hidden;
+        span{
+            font-size: 20px;
+            line-height: 32px;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+        input{
+            border: none;
+            outline: none;
+            line-height: 20px;
+            margin-left: 10px;
+            // opacity: 0;
+            background: transparent;
+            color: #f7f3f3;
+            font-size: 15px;
+            border-bottom: 1px solid #cccccc;
+            width: 250px;
+            text-indent: 10px;
+        }
+        input::-webkit-input-placeholder{
+            color:#ffffff;
+        }
+    }
+    .password{
+        width: 294px;
+        height: 32px;
+        left: 26px;
+        top: 396px;
+        position: absolute;
+        span{
+            font-size: 20px;
+            line-height: 32px;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+        input{
+            border: none;
+            outline: none;
+            line-height: 20px;
+            margin-left: 10px;
+            // opacity: 0;
+            background: transparent;
+            color: #f7f3f3;
+            font-size: 15px;
+            border-bottom: 1px solid #cccccc;
+            width: 250px;
+            text-indent: 10px;
+        }
+        input::-webkit-input-placeholder{
+            color:#ffffff;
+        }
+        
+    }
+    .btn{
+        width: 276px;
+        height: 48px;
+        background-color: rgba(255, 51, 102, 1);
+        border-radius: 24px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 251px;
+        span{
+            line-height: 48px;
+            color: #ffffff;
+        }
+    }
+    .signup{
+        color: #ffffff;
+        margin: 0 auto;
+        display: block;
+        width: 80px;
+        height: 23px;
+        margin-top: 20px;
+        text-align: center;
+        a{
+            color: #ffffff;
+        }
+    }
+}

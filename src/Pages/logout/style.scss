@@ -1,0 +1,20 @@
+.logout{
+    height: 100%;
+    width: 100%;
+    background: url('../../assess/pic3.png');
+    overflow: hidden;
+    .icon-flow{
+        position: absolute;
+        left: 17px;
+        top: 20px;
+        font-size: 25px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    #tab{
+        margin-top: 60px;
+        .pingjia{
+            font-size: 15px;
+        }
+    }
+}

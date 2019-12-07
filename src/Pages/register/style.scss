@@ -1,0 +1,177 @@
+.register{
+    background: url('../../assess/pic3.png');
+    height: 100%;
+    width: 100%;
+    position: relative;
+    .icon-flow{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 17px;
+        top: 20px;
+        font-size: 25px;
+        color: rgba(255, 255, 255, 1);
+    }
+    .new{
+        position: absolute;
+        width: 204px;
+        height: 48px;
+        left: 13px;
+        top: 53px;
+        color: rgba(255, 255, 255, 1);
+        font-size: 26px;
+        text-align: center;
+    }
+    .paizhao{
+        position: absolute;
+        width: 108px;
+        height: 108px;
+        left: 106px;
+        top: 124px;
+        opacity: 0.16;
+        color: rgba(80, 80, 80, 1);
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 54px;
+        font-size: 18px;
+        text-align: center;
+        .icon-zhaoxiangji{
+            line-height: 108px;
+            width: 30px;
+            height: 29px;
+            font-size: 35px;
+        }
+    }
+    .username{
+        width: 294px;
+        height: 32px;
+        left: 26px;
+	    top: 264px;
+        position: absolute;
+        overflow: hidden;
+        span{
+            font-size: 20px;
+            line-height: 32px;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+        input{
+            border: none;
+            outline: none;
+            line-height: 20px;
+            margin-left: 10px;
+            // opacity: 0;
+            background: transparent;
+            color: #f7f3f3;
+            font-size: 15px;
+            border-bottom: 1px solid #cccccc;
+            width: 250px;
+            text-indent: 10px;
+        }
+        input::-webkit-input-placeholder{
+            color:#ffffff;
+        }
+    }
+    .email{
+        width: 294px;
+        height: 32px;
+        left: 26px;
+	    top: 314px;
+        position: absolute;
+        overflow: hidden;
+        span{
+            font-size: 20px;
+            line-height: 32px;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+        input{
+            border: none;
+            outline: none;
+            line-height: 20px;
+            margin-left: 10px;
+            // opacity: 0;
+            background: transparent;
+            color: #f7f3f3;
+            font-size: 15px;
+            border-bottom: 1px solid #cccccc;
+            width: 250px;
+            text-indent: 10px;
+        }
+        input::-webkit-input-placeholder{
+            color:#ffffff;
+        }
+    }
+    .password{
+        width: 294px;
+        height: 32px;
+        left: 26px;
+	    top: 364px;
+        position: absolute;
+        overflow: hidden;
+        span{
+            font-size: 20px;
+            line-height: 32px;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+        input{
+            border: none;
+            outline: none;
+            line-height: 20px;
+            margin-left: 10px;
+            // opacity: 0;
+            background: transparent;
+            color: #f7f3f3;
+            font-size: 15px;
+            border-bottom: 1px solid #cccccc;
+            width: 250px;
+            text-indent: 10px;
+        }
+        input::-webkit-input-placeholder{
+            color:#ffffff;
+        }
+    }
+    .birthday{
+        width: 294px;
+        height: 32px;
+        left: 26px;
+	    top: 414px;
+        position: absolute;
+        overflow: hidden;
+        span{
+            font-size: 20px;
+            line-height: 32px;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+        input{
+            border: none;
+            outline: none;
+            line-height: 20px;
+            margin-left: 10px;
+            // opacity: 0;
+            background: transparent;
+            color: #f7f3f3;
+            font-size: 15px;
+            border-bottom: 1px solid #cccccc;
+            width: 250px;
+            text-indent: 10px;
+        }
+        input::-webkit-input-placeholder{
+            color:#ffffff;
+        }
+    }
+    .btn{
+        width: 276px;
+        height: 48px;
+        background-color: rgba(255, 51, 102, 1);
+        border-radius: 24px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 480px;
+        span{
+            line-height: 48px;
+            color: #ffffff;
+        }
+    }
+}
